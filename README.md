@@ -3,8 +3,14 @@
 O principal objetivo da aplicação é permitir **consulta** (listagem), **criação**, **alteração** e **exclusão** de Veículos de uma frota de concessionária, ou seja, se trata de um **CRUD** de veículos.
 A aplicação possui uma página de login, na qual um dos administradores fictícios entra com usuário e senha. Apenas após o login ser feito com sucesso que ele é redirecionado para a página de visualização da frota, onde pode fazer as operações de CRUD citadas acima.
 
+Principais Componentes do App:
+- Interfaces gráficas (tela de login e tela de gerenciamento da frota)
+- Backend (procedimentos e funções lógicas)
+- API (serviço que responde às requisições que o usuário faz através do app)
+- Banco de Dados (permite armzenar as informações dos veículos da frota)
+
 Principais tecnologias:
-- Node JS e VueJS
+- NodeJS e VueJS
   - Vue Cookies
   - Vue Router
   - Express
@@ -16,12 +22,12 @@ Principais tecnologias:
 
 Clone o projeto
 ```bash
-  git clone https://github.com/30felipedev/gestaoDeFrotaWeb.git
+  git clone https://github.com/lucasMendss/Gerenciador-de-Frota.git
 ```
 
 Entre no diretório do projeto
 ```bash
-  cd gestaoDeFrotaWeb\gestaoDeFrotaWeb>
+  cd Gerenciador de Frota\gerenciador-de-frota
 ```
 
 Instale as dependências
@@ -48,8 +54,11 @@ Execute o arquivo *api.js*
 Após esses passos, você já consegue usar o app.
 
 Ao abrir no navegador a URL fornecida, você deve ver a tela de login. Entre com estes dados:
-- Usuário: *exemplo*
-- Senha: *xyz*
+- Usuário: *admin1*
+- Senha: *1234*
+ou
+- Usuário: *admin2*
+- Senha: *abcd*
 
 ## Autores
 
