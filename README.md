@@ -7,7 +7,7 @@ Principais Componentes do App:
 - Interfaces gráficas (tela de login e tela de gerenciamento da frota)
 - Backend (procedimentos e funções lógicas)
 - API (serviço que responde às requisições que o usuário faz através do app)
-- Banco de Dados (permite armzenar as informações dos veículos da frota)
+- Banco de Dados (permite armazenar as informações dos veículos da frota)
 
 Principais tecnologias:
 - NodeJS e VueJS
